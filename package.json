@@ -1,0 +1,19 @@
+{
+  "name": "movie-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agusef22/Movie-Info.git"
+  },
+  "author": "AgusFernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agusef22/Movie-Info/issues"
+  },
+  "homepage": "https://github.com/Agusef22/Movie-Info#readme"
+}
