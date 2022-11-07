@@ -5,13 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
     <title>Movie Info</title>
 </head>
 <body>
-    <h1>Movie Info</h1>
+    <header class="header">
+        <div class="div-container-arrow-back inactive">
+            <img class="arrow-back-icon arrow-filter" src="./icons/arrow-back.png" alt="">
+        </div>
+        
+        <img class="movie-detail-image inactive" alt="">
+
+        <div class="header-div-container inactive">
+            <img class="header-logo" src="./icons/movie-ph.png" alt="">
+            <h1 class="main-title">Movie Info</h1>
+        </div>
+        <div class="div-search-icon inactive">
+            <input class="input-search-movie" type="text" placeholder="Search Movie">
+            <img class="search-icon" src="./icons/search-icon.png" alt="">
+        </div>
+    </header>
+
+    <section class="nav-section">
+        <div>
+            <h2 class="title-nav-section">Home</h2>
+        </div>
+        <div>
+            <h2 class="title-nav-section">TV Shows</h2>
+        </div>
+        <div>
+            <h2 class="title-nav-section">Movies</h2>
+        </div>
+        <div>
+            <h2 class="title-nav-section">Series</h2>
+        </div>
+    </section>
+
+    <section class="section-movies">
+        <div class="div-movies-titles">
+            <h2>Trending</h2>
+            <h3 class="trending-movies">View All</h3>
+        </div>
+        <div class="div-container-movies">
+            
+        </div>
+    </section>
+    
+
+    <h2 class="categories-h2">Categories</h2>
+    <section class="section-categories">
+        
+    </section>
+    <h1 class="header-title-category inactive">Acción</h1>
+    <section id="genericList" class="genericList-container inactive">
+        
+      </section>
     
     
+    <section class="movie-detail inactive">
+        
+        <div class="movie-detail-info">
+            <!-- <div class="title-movie-detail">
+                <h2 class="title-movie-detail-h2">Black Adam</h2>
+                <div class="container-detail-star">
+                    <img src="./icons/star-solid.svg" alt="">
+                    <h3>5.0</h3>
+                </div>
+            </div>
+            <div class="movie-detail-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, facilis reiciendis? Ea expedita dolor veritatis quos fugit nostrum recusandae velit possimus, dolore nemo deserunt temporibus reiciendis veniam, atque, sapiente tempora?
+            </div> -->
+            <!-- <div id="section-movie-detail" class="section-movies-similar">
+                <div class="div-movies-titles">
+                    <h2>Similar</h2>
+                    <h3>View All</h3>
+                </div>
+                <div class="div-container-movies">
+                    <div class="div-img-movie-container">
+                        <img class="img-movie" src="./images/movie-black.jpeg" alt="">
+                    </div>
+                    <div class="div-img-movie-container">
+                        <img class="img-movie" src="./images/movie-la-huerfana.jpeg" alt="">
+                    </div>
+                    <div class="div-img-movie-container">
+                        <img class="img-movie" src="./images/movie-sonrie.jpeg" alt="">
+                    </div>
+                    <div class="div-img-movie-container">
+                        <img class="img-movie" src="./images/movie-sonrie.jpeg" alt="">
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+
+
+    <!-- <section class="section-nav-dawn">
+        <div class="div-container-icon-nav">
+            <img src="./icons/home.png" alt="">
+        </div>
+    </section> -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./src/secrets.js"></script>
+    <script src="./src/nodos.js"></script>
     <script src="./src/main.js"></script>
+    <script src="./src/navegation.js"></script>
 </body>
 </html>
