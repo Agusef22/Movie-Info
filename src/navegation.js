@@ -73,6 +73,7 @@ function movieDetailsPage() {
   titleCategoryH2.classList.add("inactive");
   divSearchIcon.classList.add("inactive");
   genericList.classList.add("inactive");
+  headerTitleCategory.classList.add("inactive");
 
   const [_, movieId] = location.hash.split("=");
 
